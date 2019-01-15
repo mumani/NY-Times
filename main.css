@@ -55,7 +55,7 @@ section {
 
 section>div>p {
     width: 500px;
-		margin: 0 auto;
+	margin: 0 auto;
 
 }
 
@@ -69,6 +69,45 @@ h3{
 }
 
 .qlinks{
-  text-transform: capitalize;
-
+    text-transform: capitalize;
 }
+
+footer{
+    padding: 10px 50px;
+}
+
+.footer {
+    /*arranges the footer list topics*/
+    float: left;
+    width: 16.6%;
+}
+
+.footer>ul {
+    list-style: none;
+}
+
+.footer>ul>li:first-child{
+    /*Styles all the first(topic) items in footer list topics*/
+    font-weight: bold;
+}
+
+footer>ul {
+    /*styles for the last list in the footer*/
+    display: inline-block;
+    list-style: none;
+    font-size: 10px;
+}
+
+footer>ul>li {
+    /*styles for the last list in the footer*/
+    float: left;
+    margin: 35px;
+}
+
+#editor-pick{
+    /* styles for the editors'pick sidebar*/
+    width: 300px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
