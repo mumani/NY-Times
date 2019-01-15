@@ -36,7 +36,6 @@ body{
 
 nav {
     position: fixed;
-    display: flex;
     background: #fff;
     margin-top: -10px;
     border-bottom: 1px solid #6288a5;
@@ -46,6 +45,7 @@ nav {
 
 button {
     transition: ease 0.6s;
+    float: right;
     padding: 8px;
     background-color: #6288a5;
     border: 0.4px solid #326891;
