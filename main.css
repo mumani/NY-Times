@@ -23,6 +23,17 @@ body{
 		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+#headline {
+    display: inline-block;
+    color: #000000;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 0.9;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
 nav {
     position: fixed;
     display: flex;
@@ -54,8 +65,17 @@ section {
 
 section>div>p {
     width: 500px;
-		margin: 0 auto;
+	margin: 0 auto;
 
+}
+
+.left{
+    float: left;
+}
+
+.left::after{
+    content: '';
+    clear: both;
 }
 
 p {
@@ -115,7 +135,7 @@ footer>ul {
 footer>ul>li {
     /*styles for the last list in the footer*/
     float: left;
-    margin: 35px;
+    margin: 15px;
 }
 
 #editor-pick{
@@ -124,3 +144,15 @@ footer>ul>li {
     margin-right: 0;
     margin-left: auto;
 }
+
+#final-footer {
+    border-top: 1px solid #000000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+hr { margin: 10px 0 20px 0; }
