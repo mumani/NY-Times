@@ -16,9 +16,47 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+}
+
+body{
+    font-family: -apple-system-body, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav {
     position: fixed;
+    display: flex;
+    background: #fff;
+    margin-top: -10px;
+    border-bottom: 1px solid #6288a5;
+    padding: 10px 9px;
+    width: 100%;
+}
+
+button {
+    transition: ease 0.6s;
+    padding: 8px;
+    background-color: #6288a5;
+    border: 0.4px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+hr {
+    margin-bottom: 70px;
+}
+
+section {
+    text-align: center;
+}
+
+section>div>p {
+    padding: 0 340px;
+}
+
+p {
+    font-family: nyt-franklin, Helvetica Neue, Arial, sans-serif;
+    text-align: left;
 }
