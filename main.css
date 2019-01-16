@@ -26,10 +26,12 @@ body{
 #headline {
     display: inline-block;
     color: #000000;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 40px;
+		font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 28px;
     line-height: 0.9;
+		padding-top: : 20px;
     padding-bottom: 20px;
     text-align: left;
 }
@@ -87,7 +89,7 @@ p {
 }
 
 h1{
-	font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+
 	font-size: 28px;
 	font-style: oblique;
 	font-weight: 500;
