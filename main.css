@@ -131,8 +131,8 @@ div #ql1{
 }
 
 footer{
-    padding: 10px 50px;
-    margin: 50px;
+    padding: 0 100px;
+    margin: 0 50px;
 }
 
 .footer {
@@ -143,13 +143,30 @@ footer{
 
 
 .footer>ul {
+    font-family: nyt-franklin;
     list-style: none;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
 }
 
 .footer>ul>li:first-child{
     /*Styles all the first(topic) items in footer list topics*/
     font-weight: bold;
 }
+
+.footer>ul>li:first-child:hover{
+    /*Styles all the first(topic) items in footer list topics*/
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+}
+
+.footer>ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 #final-footer>ul {
     /*styles for the last list in the footer*/
@@ -162,6 +179,7 @@ footer{
     /*styles for the last list in the footer*/
     float: left;
     margin: 15px;
+    color: rgba(94, 88, 88, 0.712);
 }
 
 #editor-pick{
@@ -172,7 +190,7 @@ footer{
 }
 
 #final-footer {
-    border-top: 1px solid #000000;
+    border-top: 1px solid rgba(94, 88, 88, 0.712);
     vertical-align: middle;
     text-align: center;
 }
@@ -199,4 +217,16 @@ li>i {
     margin: 5px;
 }
 
-hr { margin: 10px 0 20px 0; }
+hr { 
+    margin: 10px 0 20px 0; 
+    color: #ccc;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+a {
+    color: #6288a5;
+    text-decoration: none;
+}
