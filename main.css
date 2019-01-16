@@ -15,7 +15,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-  vertical-align: baseline;
+  vertical-align: middle   ;
 }
 
 body{
@@ -26,12 +26,12 @@ body{
 #headline {
     display: inline-block;
     color: #000000;
-		font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+	font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-weight: 500;
     font-style: oblique;
     font-size: 28px;
     line-height: 0.9;
-		padding-top: : 20px;
+	padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
 }
@@ -39,10 +39,23 @@ body{
 nav {
     position: fixed;
     background: #fff;
+    z-index: 10;
     margin-top: -10px;
     border-bottom: 1px solid #6288a5;
     padding: 10px 9px;
     width: 100%;
+}
+
+nav>span {
+    font-weight: bold;
+}
+
+nav>button:nth-child(5) {
+    margin-right: 30px;
+}
+
+nav>img {
+    margin-left: 430px;
 }
 
 button {
@@ -53,6 +66,7 @@ button {
     border: 0.4px solid #326891;
     color: #fff;
     font-size: 11px;
+    font-weight: bold;
     margin-left: 10px;
     border-radius: 3px;
 }
@@ -88,13 +102,6 @@ p {
 		opacity: 0.85;
 }
 
-h1{
-
-	font-size: 28px;
-	font-style: oblique;
-	font-weight: 500;
-}
-
 h3{
   font-weight: bold;
 }
@@ -110,6 +117,7 @@ h3{
 
 footer{
     padding: 10px 50px;
+    margin: 50px;
 }
 
 .footer {
@@ -117,6 +125,7 @@ footer{
     float: left;
     width: 16.6%;
 }
+
 
 .footer>ul {
     list-style: none;
@@ -127,14 +136,14 @@ footer{
     font-weight: bold;
 }
 
-footer>ul {
+#final-footer>ul {
     /*styles for the last list in the footer*/
     display: inline-block;
     list-style: none;
     font-size: 10px;
 }
 
-footer>ul>li {
+#final-footer>ul>li {
     /*styles for the last list in the footer*/
     float: left;
     margin: 15px;
@@ -155,6 +164,24 @@ footer>ul>li {
 
 .right {
     float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.small-text {
+    font-weight: normal;
+    font-size: 11px;
+}
+
+li>i {
+    margin: 5px;
 }
 
 hr { margin: 10px 0 20px 0; }
