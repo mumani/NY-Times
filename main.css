@@ -110,13 +110,23 @@ h3{
 .qlinks{
     text-transform: capitalize;
 		text-decoration: none;
-		height: 600px;
+		height: 500px;
 		margin: 50px;
+}
+
+div #ql1{
+	height: 700px;
+}
+
+.qlinks::after{
+	content: "";
+	clear: both;
+	display: table;
 }
 
 .img2{
 	height: 250px;
-	width: 350px;
+	width: 33%;
 	float: left;
 }
 
