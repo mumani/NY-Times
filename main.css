@@ -110,12 +110,19 @@ h3{
 .qlinks{
     text-transform: capitalize;
 		text-decoration: none;
+		font-size: 18px;
 		height: 500px;
 		margin: 50px;
+		color: #121212;
+
 }
 
 div #ql1{
-	height: 700px;
+	height: 700px !important;
+}
+
+div #ql2{
+	height: 400
 }
 
 .qlinks::after{
@@ -125,9 +132,22 @@ div #ql1{
 }
 
 .img2{
-	height: 250px;
+	height: 300px;
 	width: 33%;
 	float: left;
+}
+
+.gallery{
+	width: 65%;
+}
+
+.trending{
+	margin-right: 50px;
+	width: 30%;
+	height: 1000px;
+	float: right;
+	color: black;
+	font-size: 18px;
 }
 
 footer{
@@ -217,8 +237,8 @@ li>i {
     margin: 5px;
 }
 
-hr { 
-    margin: 10px 0 20px 0; 
+hr {
+    margin: 10px 0 20px 0;
     color: #ccc;
 }
 
