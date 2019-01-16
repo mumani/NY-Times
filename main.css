@@ -96,24 +96,28 @@ section>div>p {
 
 p {
     font-family: nyt-franklin, Helvetica Neue, Arial, sans-serif;
-		font-weight: 400;
-		font-size: 20px;
+	font-weight: 400;
+	font-size: 20px;
     text-align: left;
-		opacity: 0.85;
+	opacity: 0.85;
 }
 
 h3{
   font-weight: bold;
 }
 
+#more {
+    padding: 0 100px;
+    margin: 0 50px;
+}
+
 
 .qlinks{
     text-transform: capitalize;
-		text-decoration: none;
-		font-size: 18px;
-		height: 500px;
-		margin: 50px;
-		color: #121212;
+	text-decoration: none;
+	font-size: 18px;
+	height: 500px;
+	color: #121212;
 
 }
 
@@ -133,19 +137,21 @@ div #ql2{
 
 .img2{
 	height: 300px;
-	width: 33%;
+    width: 30%;
 	float: left;
 }
 
 .gallery{
-	width: 65%;
+    width: 60%;
+    float: left;
+    /* margin: 0 10px 0 30px; */
 }
 
 .trending{
-	margin-right: 50px;
+    margin-left: 100px;
+    float: left;
 	width: 30%;
 	height: 1000px;
-	float: right;
 	color: black;
 	font-size: 18px;
 }
@@ -202,11 +208,25 @@ footer{
     color: rgba(94, 88, 88, 0.712);
 }
 
+aside {
+    float: right;
+    margin-right: 50px;
+}
+
 #editor-pick{
     /* styles for the editors'pick sidebar*/
-    width: 300px;
-    margin-right: 0;
+    width: 180px;
     margin-left: auto;
+    font-size: 12px;
+}
+
+#editor-pick>ul>li{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#editor-pick>ul>li>img {
+    margin-right: 5px;
 }
 
 #final-footer {
