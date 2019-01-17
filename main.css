@@ -99,7 +99,9 @@ p {
 	font-weight: 400;
 	font-size: 20px;
     text-align: left;
-	opacity: 0.85;
+    margin: 0 auto;
+    opacity: 0.85;
+    width: 650px;
 }
 
 h3{
@@ -109,6 +111,10 @@ h3{
 #more {
     padding: 0 100px;
     margin: 0 50px;
+}
+
+#more a {
+    color: #000000;
 }
 
 
@@ -122,7 +128,7 @@ h3{
 }
 
 div #ql1{
-	height: 700px !important;
+    height: 700px !important;
 }
 
 div #ql2{
@@ -135,16 +141,27 @@ div #ql2{
 	display: table;
 }
 
-.img2{
+.qlinks>ul>li {
+    float: left;
+    width: 33%;
+    overflow: hidden;
+}
+
+.qlinks>ul>li img {
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+
+/* .img2{
 	height: 300px;
     width: 30%;
 	float: left;
-}
+} */
 
 .gallery{
     width: 60%;
     float: left;
-    /* margin: 0 10px 0 30px; */
 }
 
 .trending{
