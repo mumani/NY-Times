@@ -132,7 +132,7 @@ div #ql1{
 }
 
 div #ql2{
-	height: 400
+	height: 400px;
 }
 
 .qlinks::after{
