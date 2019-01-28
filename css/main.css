@@ -303,3 +303,32 @@ a {
     color: #6288a5;
     text-decoration: none;
 }
+
+section figure img {
+    margin-top: 0;
+    width: 40%;
+}
+
+section figure .inflation-fig1 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -430px;
+    
+}
+
+section figure .inflation-fig2 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    
+}
+section figure div figcaption {
+    display: inline-block;
+    width: 140px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    vertical-align: top;
+}

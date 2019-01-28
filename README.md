@@ -8,6 +8,6 @@ The material icons used were from https://material.io
 Everything else was built using HTML5 forms and CSS3
 
 
-##Contributors
+#Contributors
 Elvis (@mumani)
 Blessed (@newcoder171)
