@@ -299,6 +299,13 @@ hr {
     visibility: hidden;
 }
 
+.img1{
+    width:60%; 
+    margin: 0 auto; 
+    color: #666; 
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
 a {
     color: #6288a5;
     text-decoration: none;
