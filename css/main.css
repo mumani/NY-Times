@@ -88,7 +88,7 @@ section {
 }
 
 .img5{
-	width: 500px !important;
+	width: 750px !important;
 	margin: 50px;
 }
 
@@ -320,7 +320,7 @@ section figure .inflation-fig1 {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -430px;
+    margin-top: -440px;
     
 }
 
@@ -339,3 +339,5 @@ section figure div figcaption {
     line-height: 1.2em;
     vertical-align: top;
 }
+
+
