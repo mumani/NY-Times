@@ -1,0 +1,343 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+  vertical-align: middle   ;
+}
+
+body{
+    font-family: -apple-system-body, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#headline {
+    display: inline-block;
+    color: #000000;
+	font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 28px;
+    line-height: 0.9;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+nav {
+    position: fixed;
+    background: #fff;
+    z-index: 10;
+    margin-top: -10px;
+    border-bottom: 1px solid #6288a5;
+    padding: 10px 9px;
+    width: 100%;
+}
+
+nav>span {
+    font-weight: bold;
+}
+
+.s-icons {
+    border-radius: 50%;
+    border-color: #ccc;
+    height: 40px;
+    width: 40px;
+    background-color: #ccc;
+}
+
+nav>button:nth-child(5) {
+    margin-right: 30px;
+}
+
+nav>img {
+    margin-left: 430px;
+}
+
+button {
+    transition: ease 0.6s;
+    float: right;
+    padding: 8px;
+    background-color: #6288a5;
+    border: 0.4px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+hr {
+    margin-bottom: 70px;
+}
+
+section {
+    text-align: center;
+}
+
+.img5{
+	width: 750px !important;
+	margin: 50px;
+}
+
+section>div>p {
+    width: 500px;
+	margin: 0 auto;
+
+}
+
+.left{
+    float: left;
+}
+
+.left::after{
+    content: '';
+    clear: both;
+}
+
+p {
+    font-family: nyt-franklin, Helvetica Neue, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+    text-align: left;
+    margin: 0 auto;
+    opacity: 0.85;
+    width: 650px;
+}
+
+.btm-btns{
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center !important;
+
+}
+
+h3{
+  font-weight: bold;
+}
+
+#more {
+    padding: 0 100px;
+    margin: 0 50px;
+}
+
+#more a {
+    color: #000000;
+}
+
+
+.qlinks{
+    text-transform: capitalize;
+	text-decoration: none;
+	font-size: 18px;
+	height: 500px;
+	color: #121212;
+
+}
+
+div #ql1{
+    height: 700px !important;
+}
+
+div #ql2{
+	height: 400px;
+}
+
+.qlinks::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qlinks>ul>li {
+		height: 300px;
+    float: left;
+    width: 33%;
+    overflow: hidden;
+}
+
+.qlinks>ul>li img {
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+
+.gallery{
+    width: 60%;
+    float: left;
+}
+
+.trending{
+    margin-left: 100px;
+    float: left;
+	width: 30%;
+	height: 1000px;
+	color: black;
+	font-size: 18px;
+}
+
+footer{
+    padding: 0 100px;
+    margin: 0 50px;
+}
+
+.footer {
+    /*arranges the footer list topics*/
+    float: left;
+    width: 16.6%;
+}
+
+
+.footer>ul {
+    font-family: nyt-franklin;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+}
+
+.footer>ul>li:first-child{
+    /*Styles all the first(topic) items in footer list topics*/
+    font-weight: bold;
+}
+
+.footer>ul>li:first-child:hover{
+    /*Styles all the first(topic) items in footer list topics*/
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+}
+
+.footer>ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#final-footer>ul {
+    /*styles for the last list in the footer*/
+    display: inline-block;
+    list-style: none;
+    font-size: 10px;
+}
+
+#final-footer>ul>li {
+    /*styles for the last list in the footer*/
+    float: left;
+    margin: 15px;
+    color: rgba(94, 88, 88, 0.712);
+}
+
+aside {
+    float: right;
+    margin-right: 50px;
+}
+
+#editor-pick{
+    /* styles for the editors'pick sidebar*/
+    width: 180px;
+    margin-left: auto;
+    font-size: 12px;
+}
+
+#editor-pick>ul>li{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#editor-pick>ul>li>img {
+    margin-right: 5px;
+}
+
+#final-footer {
+    border-top: 1px solid rgba(94, 88, 88, 0.712);
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.small-text {
+    font-weight: normal;
+    font-size: 11px;
+}
+
+li>i {
+    margin: 5px;
+}
+
+hr {
+    margin: 10px 0 20px 0;
+    color: #ccc;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.img1{
+    width:60%; 
+    margin: 0 auto; 
+    color: #666; 
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+a {
+    color: #6288a5;
+    text-decoration: none;
+}
+
+section figure img {
+    margin-top: 0;
+    width: 40%;
+}
+
+section figure .inflation-fig1 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -440px;
+    
+}
+
+section figure .inflation-fig2 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    
+}
+section figure div figcaption {
+    display: inline-block;
+    width: 140px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+
+
